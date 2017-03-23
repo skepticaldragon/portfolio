@@ -2,13 +2,9 @@
 	display: flex;
 	align-content: row;
 	width: 100%;
-
-
-	
-
 }
 
-
+/* left */
 .leftside {
 	background-color: #D3D3D3;
 	width: 10%;
@@ -16,10 +12,9 @@
 	font-family: 'Capriola', sans-serif;
 	position: fixed;
 	
-	
-	
 }
 
+/* right */
 .rightside {
 	background-color: #D3D3D3;
 	width: 10%;
@@ -30,31 +25,7 @@
 
 }
 
-.container {
-	display: flex;
-	justify-content: space-around;
-}
-
-
-
-.cycle-slideshow {
-	
-	margin: 5px;
-    border: 1px solid 	#FFFFFF;
-    text-align: center;
-    }
-
-
-
-
-.center {
-	colour: white;
-	font-family: 'Alegreya Sans', sans-serif;
-	text-align: center;
-
-}
-
-
+/* navigation */
 nav	{
 	display: flex;
 	justify-content: space-around;
@@ -78,31 +49,67 @@ ul {
     text-decoration: underline;
 }
 
+/* middle */
 .middle {
 	height: 300px;
 	width: 100%;
 	background-image: url("../images/nottingham2.jpg");
 	background-size: cover;
+	background-position: right top;
     background-attachment: fixed;
 
 
 }
 
 .middle2 {
+	
 	height: 2000px;
 	width: 40%;
 	background-color: black;
 	margin: auto;
+	display: flex;
 	align-content:column;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+	text-align: justify;
+	flex-direction: column;
+
+}
+ .middle-container2 {
+ 	display: flex;
+ }
+
+.middle-container {
+	
+	width: 100%;
+	
+	
 	
 }
 
+/* text */
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	 font-size: 24px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px;
+}
+
+/*PICTURES*/
 div.img {
     margin: 5px;
     border: 1px solid 	#FFFFFF;
     float: left;
     width: 180px;
     justify-content: center;
+    margin: auto;
+    padding: 2px;
+    display: block;
+    width: 50%;
 }
 
 div.img:hover {
@@ -121,23 +128,10 @@ div.desc {
     color: white;
     font-family: 'Alegreya Sans', sans-serif;
 }	
-	
 
-
-
-.middle-container {
-	align-content: column;
-	width: 100%;
-	
-
+.vid {
+	margin: auto;
 }
-
-
-
-
-
-
-
 
 
 /* Dropdown Button */

@@ -2,10 +2,6 @@
 	display: flex;
 	align-content: row;
 	width: 100%;
-
-
-	
-
 }
 
 
@@ -18,6 +14,7 @@
 	
 	
 	
+	
 }
 
 .rightside {
@@ -27,33 +24,8 @@
 	font-family: 'Capriola', sans-serif;
 	position: fixed;
 	left: 90%;
-
-}
-
-.container {
-	display: flex;
-	justify-content: space-around;
-}
-
-
-
-.cycle-slideshow {
 	
-	margin: 5px;
-    border: 1px solid 	#FFFFFF;
-    text-align: center;
-    }
-
-
-
-
-.center {
-	colour: white;
-	font-family: 'Alegreya Sans', sans-serif;
-	text-align: center;
-
 }
-
 
 nav	{
 	display: flex;
@@ -83,6 +55,7 @@ ul {
 	width: 100%;
 	background-image: url("../images/nottingham2.jpg");
 	background-size: cover;
+	background-position: right top;
     background-attachment: fixed;
 
 
@@ -97,12 +70,32 @@ ul {
 	
 }
 
+
+.middle-container {
+	align-content: column;
+	width: 100%;
+	margin: auto;
+	
+
+}
+
+.images {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+
+
+}
+
 div.img {
     margin: 5px;
     border: 1px solid 	#FFFFFF;
     float: left;
     width: 180px;
     justify-content: center;
+    width: 40%;
+    margin:auto;
+
 }
 
 div.img:hover {
@@ -122,20 +115,6 @@ div.desc {
     font-family: 'Alegreya Sans', sans-serif;
 }	
 	
-
-
-
-.middle-container {
-	align-content: column;
-	width: 100%;
-	
-
-}
-
-
-
-
-
 
 
 
@@ -184,3 +163,4 @@ div.desc {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
